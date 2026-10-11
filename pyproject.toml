@@ -3,15 +3,15 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "MediaTools"
-version = "0.6"
+name = "mediatools"
+version = "0.7"
 description = "Local media utilities (tagging, cover art, scaling, probing) and an ElevenLabs API wrapper for Reuben Institute's media pipeline"
 readme = { text = "Local media utilities (tagging, cover art, scaling, probing) and an ElevenLabs API wrapper for Reuben Institute's media pipeline.", content-type = "text/plain" }
 license = "GPL-3.0-or-later"
 license-files = ["GPL-3"]
 requires-python = ">=3.8"
 dependencies = [
-    "ffmpeg-python",
+    "python-ffmpeg-fork",
     "mutagen",
     "Pillow",
 ]
