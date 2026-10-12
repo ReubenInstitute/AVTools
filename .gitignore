@@ -1,2 +1,7 @@
 __pycache__/
 elevenlabs.txt
+build/
+dist/
+*.egg-info/
+*.pyc
+*.deb

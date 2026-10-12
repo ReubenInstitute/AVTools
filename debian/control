@@ -1,16 +1,15 @@
-Source: mediatools
+Source: avtools
 Section: python
 Priority: optional
 Maintainer: Reuben Institute <reubeninstitute@gmail.com>
 Build-Depends: debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-setuptools
 Standards-Version: 4.6.2
 
-Package: python3-mediatools
+Package: python3-avtools
 Architecture: all
 Depends: ${python3:Depends}, ${misc:Depends}, python3-ffmpeg, python3-mutagen, python3-pil, ffmpeg
 Description: Local media utilities and ElevenLabs API wrapper
  Provides Media (ffmpeg/mutagen/PIL-based tagging, cover art, scaling,
  probing) and Services (ElevenLabs API wrapper: TTS, speech-to-speech,
- forced/word alignment) for Reuben Institute's media pipeline. The
- elevenlabs package itself is not a hard dependency — Services imports
+ forced/word alignment). The elevenlabs package itself is not a hard dependency — Services imports
  it lazily per function.
