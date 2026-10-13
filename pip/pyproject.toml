@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "avtools"
-version = "0.9"
+version = "0.10"
 description = "Local media utilities (tagging, cover art, scaling, probing) and an ElevenLabs API wrapper."
 readme = { text = "Local media utilities (tagging, cover art, scaling, probing) and an ElevenLabs API wrapper.", content-type = "text/plain" }
 license = "GPL-3.0-or-later"
